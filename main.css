@@ -72,3 +72,32 @@ h3 {
   background-color: rgb(88, 143, 88);
   outline: none;
 }
+
+.products{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.product{
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 1.5em;
+  background-color: white;
+  border-radius: 2em;
+  padding: 2em;
+}
+
+.heading{
+  text-align: center;
+}
+
+footer{
+  display: none;
+  flex-direction: column;
+  align-items: center;
+}
+.social-links{
+  list-style-type: none;
+}
